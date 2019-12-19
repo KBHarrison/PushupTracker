@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		386873A823459009004F7EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873A723459009004F7EAC /* AppDelegate.swift */; };
 		386873AA23459009004F7EAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873A923459009004F7EAC /* SceneDelegate.swift */; };
-		386873AC23459009004F7EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873AB23459009004F7EAC /* ViewController.swift */; };
 		386873AF23459009004F7EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386873AD23459009004F7EAC /* Main.storyboard */; };
 		386873B123459009004F7EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386873B023459009004F7EAC /* Assets.xcassets */; };
 		386873B423459009004F7EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386873B223459009004F7EAC /* LaunchScreen.storyboard */; };
-		386873BF2345900A004F7EAC /* PushupTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873BE2345900A004F7EAC /* PushupTrackerTests.swift */; };
+		386873D023465CEF004F7EAC /* WebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873CF23465CEF004F7EAC /* WebSiteViewController.swift */; };
+		386873D623466EE6004F7EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873D523466EE6004F7EAC /* ViewController.swift */; };
+		386873D8234675A3004F7EAC /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873D7234675A3004F7EAC /* InputController.swift */; };
+		386873DB2346DE0B004F7EAC /* Pushups.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 386873D92346DE0B004F7EAC /* Pushups.xcdatamodeld */; };
+		386873E12346F0A6004F7EAC /* ViewPushupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386873E02346F0A6004F7EAC /* ViewPushupsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		386873A423459009004F7EAC /* PushupTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushupTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386873A423459009004F7EAC /* Be Like Arnold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Like Arnold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386873A723459009004F7EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		386873A923459009004F7EAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		386873AB23459009004F7EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		386873AE23459009004F7EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386873B023459009004F7EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386873B323459009004F7EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		386873B523459009004F7EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		386873BA2345900A004F7EAC /* PushupTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushupTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		386873BE2345900A004F7EAC /* PushupTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupTrackerTests.swift; sourceTree = "<group>"; };
-		386873C02345900A004F7EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386873CF23465CEF004F7EAC /* WebSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSiteViewController.swift; sourceTree = "<group>"; };
+		386873D523466EE6004F7EAC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		386873D7234675A3004F7EAC /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		386873DA2346DE0B004F7EAC /* Pushups.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pushups.xcdatamodel; sourceTree = "<group>"; };
+		386873E02346F0A6004F7EAC /* ViewPushupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPushupsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				386873A623459009004F7EAC /* PushupTracker */,
-				386873BD2345900A004F7EAC /* PushupTrackerTests */,
 				386873A523459009004F7EAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,7 +74,7 @@
 		386873A523459009004F7EAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				386873A423459009004F7EAC /* PushupTracker.app */,
+				386873A423459009004F7EAC /* Be Like Arnold.app */,
 				386873BA2345900A004F7EAC /* PushupTrackerTests.xctest */,
 			);
 			name = Products;
@@ -79,9 +83,10 @@
 		386873A623459009004F7EAC /* PushupTracker */ = {
 			isa = PBXGroup;
 			children = (
+				386873D423466CA9004F7EAC /* Controllers */,
+				386873D323466C93004F7EAC /* Models */,
 				386873A723459009004F7EAC /* AppDelegate.swift */,
 				386873A923459009004F7EAC /* SceneDelegate.swift */,
-				386873AB23459009004F7EAC /* ViewController.swift */,
 				386873AD23459009004F7EAC /* Main.storyboard */,
 				386873B023459009004F7EAC /* Assets.xcassets */,
 				386873B223459009004F7EAC /* LaunchScreen.storyboard */,
@@ -90,13 +95,23 @@
 			path = PushupTracker;
 			sourceTree = "<group>";
 		};
-		386873BD2345900A004F7EAC /* PushupTrackerTests */ = {
+		386873D323466C93004F7EAC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				386873BE2345900A004F7EAC /* PushupTrackerTests.swift */,
-				386873C02345900A004F7EAC /* Info.plist */,
+				386873D92346DE0B004F7EAC /* Pushups.xcdatamodeld */,
 			);
-			path = PushupTrackerTests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		386873D423466CA9004F7EAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				386873D523466EE6004F7EAC /* ViewController.swift */,
+				386873CF23465CEF004F7EAC /* WebSiteViewController.swift */,
+				386873D7234675A3004F7EAC /* InputController.swift */,
+				386873E02346F0A6004F7EAC /* ViewPushupsController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +131,7 @@
 			);
 			name = PushupTracker;
 			productName = PushupTracker;
-			productReference = 386873A423459009004F7EAC /* PushupTracker.app */;
+			productReference = 386873A423459009004F7EAC /* Be Like Arnold.app */;
 			productType = "com.apple.product-type.application";
 		};
 		386873B92345900A004F7EAC /* PushupTrackerTests */ = {
@@ -200,7 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386873AC23459009004F7EAC /* ViewController.swift in Sources */,
+				386873D8234675A3004F7EAC /* InputController.swift in Sources */,
+				386873D623466EE6004F7EAC /* ViewController.swift in Sources */,
+				386873D023465CEF004F7EAC /* WebSiteViewController.swift in Sources */,
+				386873E12346F0A6004F7EAC /* ViewPushupsController.swift in Sources */,
+				386873DB2346DE0B004F7EAC /* Pushups.xcdatamodeld in Sources */,
 				386873A823459009004F7EAC /* AppDelegate.swift in Sources */,
 				386873AA23459009004F7EAC /* SceneDelegate.swift in Sources */,
 			);
@@ -210,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386873BF2345900A004F7EAC /* PushupTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +296,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KLNKD559D4;
+				"DEVELOPMENT_TEAM[sdk=*]" = KLNKD559D4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -338,6 +358,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KLNKD559D4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -369,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyle.harrison.PushupTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Be Like Arnold";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kyle.harrison.PushupTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Be Like Arnold";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +486,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		386873D92346DE0B004F7EAC /* Pushups.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				386873DA2346DE0B004F7EAC /* Pushups.xcdatamodel */,
+			);
+			currentVersion = 386873DA2346DE0B004F7EAC /* Pushups.xcdatamodel */;
+			path = Pushups.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3868739C23459009004F7EAC /* Project object */;
 }
